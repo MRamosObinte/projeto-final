@@ -2,10 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
+import { InicioComponent } from './inicio.component';
+import { ChatComponent } from './chat/chat.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    InicioComponent,
+    ChatComponent,
+    PerfilComponent
+  ],
   imports: [
     CommonModule,
     InicioRoutingModule
