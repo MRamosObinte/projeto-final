@@ -14,7 +14,7 @@ const routes: Routes = [
         component: PerfilComponent
       },
       {
-        path: 'chat',
+        path: '',
         component: ChatComponent
       }
     ]
